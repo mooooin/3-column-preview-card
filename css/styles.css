@@ -1,0 +1,106 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin: 5rem 1rem;
+}
+
+/* cards general */
+
+.card{
+  padding: 3rem;
+}
+
+img{
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.9rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  border: 1px solid;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  padding: 0.8rem 0;
+}
+
+
+/* cards individual*/
+
+/* sedans */
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.sedans .btn{
+  color: hsl(31, 77%, 52%);
+}
+
+/* suvs */
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  border-radius: 0;
+}
+
+.suvs .btn{
+  color: hsl(184, 100%, 22%);
+}
+
+/* luxury */
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+.luxury .btn{
+  color: hsl(179, 100%, 13%);
+}
+
+
+@media (min-width: 768px) {
+
+body{
+  margin: 9rem 14rem 4rem;
+}
+
+p{
+  margin-bottom: 4rem;
+}
+
+.container .card-deck{
+  display: flex;
+}
+
+.sedans{
+  border-radius: 10px 0 0 10px;
+}
+
+.suvs {
+  border-radius: 0 0 0 0;
+}
+
+.luxury{
+  border-radius: 0 10px 10px 0;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+}
